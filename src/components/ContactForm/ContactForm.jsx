@@ -3,8 +3,8 @@ import { nanoid } from '@reduxjs/toolkit';
 import { Form, Label, Button, Input } from './ContactFormStyled';
 
 import { useSelector, useDispatch } from 'react-redux';
-import { getVisibleContacts } from 'redux/selectors';
-import { addContact } from 'redux/contactsSlice';
+import { getVisibleContacts } from '../redux/selectors';
+import { addContact } from 'components/redux/contactsSlice';
 
 const nameInputId = nanoid();
 const numberInputId = nanoid();
