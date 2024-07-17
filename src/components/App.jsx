@@ -1,4 +1,4 @@
-import { getContacts } from 'redux/selectors';
+import { getContacts } from '../redux/selectors';
 import { useSelector } from 'react-redux';
 
 import { Container, Title, SubTitle, Wrapper } from './AppStyled';
